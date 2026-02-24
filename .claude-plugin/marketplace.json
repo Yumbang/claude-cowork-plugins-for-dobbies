@@ -1,0 +1,70 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-cowork-plugins-for-dobbies",
+  "description": "A curated marketplace of Claude Cowork plugins for academic research — search papers, manage references, and export citations.",
+  "owner": {
+    "name": "Yumbang"
+  },
+  "plugins": [
+    {
+      "name": "scopus-plugin",
+      "description": "Search Scopus academic database for papers, authors, and citations via the Elsevier API",
+      "version": "1.0.1",
+      "author": {
+        "name": "ybang"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Yumbang/scopus-plugin.git"
+      },
+      "category": "productivity",
+      "tags": ["academic", "scopus", "elsevier", "citations", "papers"],
+      "homepage": "https://github.com/Yumbang/scopus-plugin"
+    },
+    {
+      "name": "crossref-plugin",
+      "description": "Search CrossRef academic metadata registry for papers, authors, and DOIs via the free CrossRef REST API",
+      "version": "1.0.0",
+      "author": {
+        "name": "ybang"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Yumbang/crossref-plugin.git"
+      },
+      "category": "productivity",
+      "tags": ["academic", "crossref", "doi", "metadata", "open-access"],
+      "homepage": "https://github.com/Yumbang/crossref-plugin"
+    },
+    {
+      "name": "zotero-plugin",
+      "description": "Query your Zotero library for paper metadata and import CrossRef results into Zotero collections",
+      "version": "1.1.0",
+      "author": {
+        "name": "ybang"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Yumbang/zotero-plugin.git"
+      },
+      "category": "productivity",
+      "tags": ["academic", "zotero", "reference-manager", "bibliography"],
+      "homepage": "https://github.com/Yumbang/zotero-plugin"
+    },
+    {
+      "name": "korea-patent-plugin",
+      "description": "Search Korean patent database (KIPRIS) for patent documents and bibliographic data",
+      "version": "1.0.0",
+      "author": {
+        "name": "ybang"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Yumbang/korea-patent-plugin.git"
+      },
+      "category": "productivity",
+      "tags": ["patent", "kipris", "korea", "intellectual-property"],
+      "homepage": "https://github.com/Yumbang/korea-patent-plugin"
+    }
+  ]
+}
