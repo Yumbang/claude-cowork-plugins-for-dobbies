@@ -50,21 +50,6 @@
       "category": "productivity",
       "tags": ["academic", "zotero", "reference-manager", "bibliography"],
       "homepage": "https://github.com/Yumbang/zotero-plugin"
-    },
-    {
-      "name": "korea-patent-plugin",
-      "description": "Search Korean patent database (KIPRIS) for patent documents and bibliographic data",
-      "version": "1.0.0",
-      "author": {
-        "name": "ybang"
-      },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/Yumbang/korea-patent-plugin.git"
-      },
-      "category": "productivity",
-      "tags": ["patent", "kipris", "korea", "intellectual-property"],
-      "homepage": "https://github.com/Yumbang/korea-patent-plugin"
     }
   ]
 }
