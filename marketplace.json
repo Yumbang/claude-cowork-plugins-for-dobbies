@@ -1,0 +1,45 @@
+{
+  "name": "claude-cowork-plugins-for-dobbies",
+  "description": "A curated marketplace of Claude Cowork plugins for academic research — search papers, manage references, and export citations.",
+  "owner": {
+    "name": "Yumbang"
+  },
+  "plugins": [
+    {
+      "name": "scopus-plugin",
+      "source": {
+        "source": "github",
+        "repo": "Yumbang/scopus-plugin"
+      },
+      "description": "Search Scopus academic database for papers, authors, and citations via the Elsevier API",
+      "tags": ["academic", "scopus", "elsevier", "citations", "papers"]
+    },
+    {
+      "name": "crossref-plugin",
+      "source": {
+        "source": "github",
+        "repo": "Yumbang/crossref-plugin"
+      },
+      "description": "Search CrossRef academic metadata registry for papers, authors, and DOIs via the free CrossRef REST API",
+      "tags": ["academic", "crossref", "doi", "metadata", "open-access"]
+    },
+    {
+      "name": "zotero-plugin",
+      "source": {
+        "source": "github",
+        "repo": "Yumbang/zotero-plugin"
+      },
+      "description": "Query your Zotero library for paper metadata and import CrossRef results into Zotero collections",
+      "tags": ["academic", "zotero", "reference-manager", "bibliography"]
+    },
+    {
+      "name": "korea-patent-plugin",
+      "source": {
+        "source": "github",
+        "repo": "Yumbang/korea-patent-plugin"
+      },
+      "description": "Search Korean patent database (KIPRIS) for patent documents and bibliographic data",
+      "tags": ["patent", "kipris", "korea", "intellectual-property"]
+    }
+  ]
+}
